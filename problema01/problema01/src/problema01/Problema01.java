@@ -31,6 +31,8 @@ public class Problema01 {
                 + "suma, resta, multiplicación, división, módulo, potencia.");
         operacion = leer.nextLine();
         
+        operacion = operacion.toLowerCase();
+        
         if (num1 > num2){
             switch(operacion){
             case "suma":
@@ -40,23 +42,27 @@ public class Problema01 {
                 resultado = num1 - num2;
                 break;
             case "multiplicación":
+            case "multiplicacion":
                 resultado = num1 * num2;
                 break;
             case "división":
+            case "division":
                 resultado = num1 / num2;
                 break;
             case "módulo":
+            case "modulo":
                 resultado = num1 % num2;
                 break;
             case "potencia":
                 resultado = Math.pow(num1, num2);
-                break;
+                break;}
+            System.out.println(resultado);
             }     
-        }else {
+        else {
                 System.out.println("Datos incorrectos");
                 }
         
-        System.out.println(resultado);
+        
     }
     
 }
