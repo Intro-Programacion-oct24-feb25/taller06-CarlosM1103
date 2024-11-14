@@ -26,8 +26,20 @@ public class Problema01 {
         num1 = leer.nextDouble();
         System.out.println("Ingrese el segundo número");
         num2 = leer.nextDouble();
-        System.out.println("Ingrese la operación");
+        System.out.println("Ingrese una de las siguientes operaciones: "
+                + "suma, resta, multiplicación, división, módulo, potencia.");
         operacion = leer.nextLine();
+        
+        if (num1 > num2){
+            switch(operacion){
+            case "suma":
+                resultado = num1 + num2;
+                break;
+                
+        }
+            
+        }
+        
     }
     
 }
