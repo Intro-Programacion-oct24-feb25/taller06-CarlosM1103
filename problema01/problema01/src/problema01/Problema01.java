@@ -20,11 +20,14 @@ public class Problema01 {
         double num1;
         double num2;
         double resultado;
-        
+        String operacion;
+ 
         System.out.println("Ingrese el primer número");
         num1 = leer.nextDouble();
         System.out.println("Ingrese el segundo número");
         num2 = leer.nextDouble();
+        System.out.println("Ingrese la operación");
+        operacion = leer.nextLine();
     }
     
 }
