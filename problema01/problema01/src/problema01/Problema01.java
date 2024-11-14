@@ -35,7 +35,21 @@ public class Problema01 {
             case "suma":
                 resultado = num1 + num2;
                 break;
-                
+            case "resta":
+                resultado = num1 - num2;
+                break;
+            case "multiplicación":
+                resultado = num1 * num2;
+                break;
+            case "división":
+                resultado = num1 / num2;
+                break;
+            case "módulo":
+                resultado = num1 % num2;
+                break;
+            case "potencia":
+                resultado = Math.pow(num1, num2);
+                break;
         }
             
         }
